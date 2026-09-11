@@ -1,0 +1,20 @@
+[project]
+name = "genspec"
+version = "0.1.0"
+description = "A LangGraph-based tool to generate project-specific specifications from generic technical documents."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.0.0",
+    "langchain>=1.0.0",
+    "langchain-openai>=1.0.0",
+    "langchain-chroma>=1.0.0",
+    "langchain-community>=0.4.0",
+    "chainlit>=2.9.2",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
